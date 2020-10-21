@@ -26,10 +26,10 @@ def solution(skill, skill_trees):
    answer = 0
    #list comprehension
    for skill_tree in skill_trees:
-          a=[skill_tree.index(i) for i in skill if i in skill_tree]
-          print(a)
-          a_=sorted(a)
-          if a ==a_ and all(i in skill_tree for i in skill[:len(a)]):answer+=1
+         a=[skill_tree.index(i) for i in skill if i in skill_tree]
+         print(a)
+         a_=sorted(a)
+         if a ==a_ and all(i in skill_tree for i in skill[:len(a)]):answer+=1
    
    return answer
 
