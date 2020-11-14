@@ -1,8 +1,3 @@
-skill="ABC"
-a=[2,0,3]
-print(skill[:len(a)])
-skill_trees=["BACDE", "CBADF", "AECB", "BDA"]
+b=input("당신의 MBTI를 입력하세요!")
 
-
-answer=[1,2,3,4,5]
-print(answer.pop())
+print(b)
